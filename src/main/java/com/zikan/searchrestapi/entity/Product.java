@@ -29,6 +29,7 @@ public class Product {
     private String name;
     private String description;
     private boolean available;
+    private String imageUrl;
     @CreationTimestamp
     private LocalDateTime dateCreated;
     @UpdateTimestamp
